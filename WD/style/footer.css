@@ -2,7 +2,7 @@ footer{
     min-height: 80px;
     background-color:#B1E85F;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 footer section{
@@ -10,10 +10,34 @@ footer section{
     font-size: 1.5vh
 }
 
+
+
 .upMove{
     display: block;
     min-height: 20px;
     color:#F2F2F2; 
     background-color: #79BE15;
     text-align: center;
+}
+
+table{
+    text-align: left;
+    padding-bottom: 10%;
+}
+
+th{
+    font-weight: normal;
+}
+
+.tableHeader{
+    font-weight: bold;
+}
+
+.h4footer{
+    padding-top: 10%;
+    color:black;
+}
+
+#mezera{
+    height: 10px;
 }
