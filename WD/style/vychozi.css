@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img{
+    padding-left: 5%;
+}
+/* larger display */
+@media screen and (max-width: 1000px){
+    p{
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+/* smaller displays */
+@media screen and (max-width: 650px){
+    p{
+        font-size: 1.2rem;
+    }
+    h1 {
+        font-size: 2.3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+
+}
+
+
+/* width pictures in news */
+.newPortrait{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+article h4{
+    padding-bottom: 1%;
+}
+
+
+/* main page -  */
+nav img{
+    width: 30px;
+    padding-bottom: 1%;
+    filter: invert(98%) sepia(64%) saturate(1174%) hue-rotate(24deg) brightness(99%) contrast(83%);
+}
+
+
+nav a{
+    text-decoration: none;
+}

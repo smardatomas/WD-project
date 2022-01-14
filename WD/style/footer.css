@@ -1,0 +1,19 @@
+footer{
+    min-height: 80px;
+    background-color:#B1E85F;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section{
+    color: black;
+    font-size: 1.5vh
+}
+
+.upMove{
+    display: block;
+    min-height: 20px;
+    color:#F2F2F2; 
+    background-color: #79BE15;
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+
+/* menu of student's page */
+#fullLength{
+    width: 100vw;
+}
+
+
+/* Subpage menu */
+#subPageUl{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-basis: 16.666%;
+    
+    background-color: rgba(177, 232, 95, 0.31);
+}
+
+#subpageUl li{
+  flex-basis: 16.666%;
+  flex-shrink: 15;
+  flex-wrap: wrap;
+}
+
+#subPageUl li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  #subPageUl li a:hover{
+    background-color: rgba(177, 232, 95, 0.31);
+  }
+
+/* Main menu of  */
+.roundIncon img{
+  width: 20px;
+  height: auto;
+}
+
+/* Subjects */
+#wayToMain{
+  text-decoration: none;
+  color: black;
+}
+
+#wayToMain:hover{
+  font-weight:600;
+}
+
+/* News */
+section h4, h3{
+    color:#B1E85F;
+}
+
+section p:nth-child(2){
+    font-weight: 900;
+}
+
+
+/* IS search box, with button */
+#searchbox{
+  margin: 5% 20%;
+}
+
+input[type="search"],
+button {
+    float: left;
+    
+}
